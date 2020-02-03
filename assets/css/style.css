@@ -29,6 +29,7 @@
 
 .navbar-inverse {
 	padding: 1%;
+	border-radius: 0px;
 }
 @media (max-width: 767px) {
 	.nav-pills>li {
@@ -122,6 +123,21 @@ html, body {
 
 .badge {
 	background-color: #000000;
+}
+.info-block {
+	font-size: 120%;
+}
+
+.info-block .badge {
+	font-size: 80%;
+}
+
+.info-block span {
+	margin-right: 3%;
+}
+
+textarea.form-control  {
+	height: 200px;
 }
 
 
